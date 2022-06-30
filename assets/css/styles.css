@@ -1,0 +1,85 @@
+#welcomeBanner {
+    background-image: url("../images/national-park-banner.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Chewy', sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: 'Ink Free', cursive;
+    font-size: 65px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Ink Free', cursive;
+}
+
+.button {
+    background-color: #663300;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    font-family: 'Ink Free', cursive;
+    font-weight: bold;
+}
+
+#homeButtonLinks {
+    justify-content: center;
+}
+
+body {
+    background-color: #663300;
+  }
+
+.card {
+    background-color: #663300;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Ink Free', cursive;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+table {
+    font-family: 'Ink Free', cursive;
+    font-size: 20px;
+    color: yelow;
+    font-weight: bold;
+}
